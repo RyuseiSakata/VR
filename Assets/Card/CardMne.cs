@@ -18,7 +18,7 @@ public class CardMne : MonoBehaviour
         /*for(int i = 0;i < 3;i++){
             SpownCard(i);
         }*/
-        GameObject c1 = (GameObject)Instantiate(card1[0], new Vector3(0.0f, 3.0f, 0.0f), Quaternion.identity);
+        GameObject c1 = (GameObject)Instantiate(card1[0], new Vector3(0.0f, 12.0f, 0.0f), Quaternion.identity);
     }
 
     public void DecriaseCard(int c){
