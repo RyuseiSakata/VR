@@ -4925,8 +4925,18 @@ MonoBehaviour:
   - {fileID: 1496335228231186967, guid: c31ccc67624c51e46ade4eb016f9ff18, type: 3}
   - {fileID: 1496335228231186967, guid: 7050e0c870f6d6440a96a87e5f8f11f4, type: 3}
   - {fileID: 1496335228231186967, guid: bd4bdc84a49a5d643ba40412bd6f3b70, type: 3}
+  - {fileID: 1496335228231186967, guid: 378cd79f84cce474a978b4206cf3c03b, type: 3}
+  - {fileID: 1496335228231186967, guid: 7413899a41edda54b80e149fcde43fa7, type: 3}
+  - {fileID: 1496335228231186967, guid: d85779f8bc2aa4b40ba51021df323291, type: 3}
   card2: []
   card3: []
+  card1_1:
+  - {fileID: 1496335228231186967, guid: c31ccc67624c51e46ade4eb016f9ff18, type: 3}
+  - {fileID: 1496335228231186967, guid: 7050e0c870f6d6440a96a87e5f8f11f4, type: 3}
+  - {fileID: 1496335228231186967, guid: bd4bdc84a49a5d643ba40412bd6f3b70, type: 3}
+  - {fileID: 1496335228231186967, guid: 378cd79f84cce474a978b4206cf3c03b, type: 3}
+  - {fileID: 1496335228231186967, guid: 7413899a41edda54b80e149fcde43fa7, type: 3}
+  - {fileID: 1496335228231186967, guid: d85779f8bc2aa4b40ba51021df323291, type: 3}
 --- !u!114 &1520112829
 MonoBehaviour:
   m_ObjectHideFlags: 0

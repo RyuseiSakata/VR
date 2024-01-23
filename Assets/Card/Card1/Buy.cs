@@ -20,10 +20,10 @@ public class Buy : MonoBehaviour
     {
         
     }
-    public void BuyCard(){
+    public void BuyCard(int c,int p){
         if(card.field[0] != 0){
-            field.IncriaseJem(0);
-            card.DecriaseCard(0);
+            field.IncriaseJem(c);
+            card.DecriaseCard(c,p);
         }
     }
 }

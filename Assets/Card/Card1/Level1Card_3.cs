@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level1Card : Card
+public class Level1Card_3 : Card
 {
     // Start is called before the first frame update
-    private Vector3 posi;
+     private Vector3 posi;
 
     void Start()
     {
@@ -19,6 +19,6 @@ public class Level1Card : Card
 
     void OnCollisionEnter(Collision collision)
     {
-         removeThis(0,0);
+         removeThis(0,2);
     }
 }

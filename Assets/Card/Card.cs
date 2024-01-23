@@ -15,8 +15,8 @@ public class Card : MonoBehaviour
     }
 
 //フィールドからカードを消す　新しいカードを追加する
-    public void removeThis(){
-        buy.BuyCard();
+    public void removeThis(int c,int p){
+        buy.BuyCard(c,p);
         Destroy(this.gameObject);
     }
 
