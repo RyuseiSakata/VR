@@ -2,23 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level1Card : Card
+public class Redjem : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Vector3 posi;
+    public GameObject field;
+    public Field f;
 
     void Start()
     {
-        buyc = GameObject.Find("GameObject");
-        buy = buyc.GetComponent<Buy>();
-    }
-
-    public void BuyCard(){
-        removeThis();
+        field = GameObject.Find("GameObject");
+        f = field.GetComponent<Field>();
     }
 
     void OnCollisionEnter(Collision collision)
     {
-         removeThis();
+         f.DeScriaseJem(0);
     }
+
 }
