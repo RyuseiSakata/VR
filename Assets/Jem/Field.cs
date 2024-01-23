@@ -82,19 +82,19 @@ public class Field : MonoBehaviour
         
         switch(c){
             case 0:
-                GameObject r = (GameObject)Instantiate(redj, new Vector3(0.0f, 0.0f, 0.0f), Quaternion.identity);
+                GameObject r = (GameObject)Instantiate(redj, new Vector3(-2.0f, 1.5f, 0.0f), Quaternion.identity);
             break;
              case 1:
-                GameObject b = (GameObject)Instantiate(bluej, new Vector3(1.0f, 0.0f, 0.0f), Quaternion.identity);
+                GameObject b = (GameObject)Instantiate(bluej, new Vector3(1.5f, 1.5f, 0.0f), Quaternion.identity);
             break;
              case 2:
-                GameObject g = (GameObject)Instantiate(greenj, new Vector3(2.0f, 0.0f, 0.0f), Quaternion.identity);
+                GameObject g = (GameObject)Instantiate(greenj, new Vector3(2.0f, 1.5f, 0.0f), Quaternion.identity);
             break;
              case 3:
-                GameObject y = (GameObject)Instantiate(yellowj, new Vector3(3.0f, 0.0f, 0.0f), Quaternion.identity);
+                GameObject y = (GameObject)Instantiate(yellowj, new Vector3(3.0f, 1.5f, 0.0f), Quaternion.identity);
             break;
              case 4:
-                 GameObject bl = (GameObject)Instantiate(blackj, new Vector3(4.0f, 0.0f, 0.0f), Quaternion.identity);
+                 GameObject bl = (GameObject)Instantiate(blackj, new Vector3(4.0f, 1.5f, 0.0f), Quaternion.identity);
             break;
         }
     }
