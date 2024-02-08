@@ -22,27 +22,4 @@ public class Card : MonoBehaviour
 
     public void getPoint(){}//ポイントを追加する
 
-
-    /*以下はマウスで動かす用の処理*/
-   /* private Vector3 mOffset;
-    private float mZCoord;
-
-    void OnMouseDown()
-    {
-        mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-        mOffset = gameObject.transform.position - GetMouseWorldPos();
-    }
-
-    private Vector3 GetMouseWorldPos()
-    {
-        Vector3 mousePoint = Input.mousePosition;
-        mousePoint.z = mZCoord;
-
-        return Camera.main.ScreenToWorldPoint(mousePoint);
-    }
-
-    void OnMouseDrag()
-    {
-        transform.position = GetMouseWorldPos() + mOffset;
-    }*/
 }

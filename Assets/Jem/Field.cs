@@ -9,7 +9,6 @@ public class Field : MonoBehaviour
     [SerializeField] private GameObject redj,bluej,greenj,yellowj,blackj;
     void Start()
     {
-        
         for(int i = 0;i < 5;i++){
             SpownJem(i);
         }

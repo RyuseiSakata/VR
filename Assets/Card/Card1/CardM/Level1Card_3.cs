@@ -19,6 +19,6 @@ public class Level1Card_3 : Card
 
     void OnCollisionEnter(Collision collision)
     {
-         removeThis(0,2);
+         removeThis(2,2);
     }
 }
