@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 6820870301457050479}
   - component: {fileID: -7822116152667199277}
   - component: {fileID: -5007459754263775525}
-  - component: {fileID: 8398277089454435614}
   m_Layer: 0
   m_Name: 1 6
   m_TagString: Untagged
@@ -108,7 +107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496335228231186967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e9c561af3f3030479579d3fc21b9638, type: 3}
   m_Name: 
@@ -268,19 +267,3 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &8398277089454435614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496335228231186967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cbe110089e9c924fafda6e097b5d25e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winpoint: 0
-  cost: 0000000000000000000000000000000000000000
-  buyc: {fileID: 0}
-  buy: {fileID: 0}
