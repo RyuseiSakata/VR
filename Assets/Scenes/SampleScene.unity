@@ -236,6 +236,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65284393}
   m_CullTransparentMesh: 1
+--- !u!1 &65582282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65582283}
+  - component: {fileID: 65582284}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65582283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65582282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 493.5, y: 224.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65582284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65582282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674d0c3862d135f47b0bb105be8d9295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jemCount: 0
+  RedJemCount: 0
+  BlueJemCount: 0
+  GreenJemCount: 0
+  WhiteJemCount: 0
+  BlackJemCount: 0
+  GetPoint: 0
 --- !u!1 &67518915
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &223974227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,7 +1940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &782628376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4985,9 +5036,11 @@ MonoBehaviour:
   black: 0
   redj: {fileID: 2718274588166405877, guid: 0bfd05503aab03f44a323a041259d8e5, type: 3}
   bluej: {fileID: 4096208250621379826, guid: beca960e12420c048b29ea972390d915, type: 3}
-  greenj: {fileID: 8197622510785099344, guid: af7242438669519428772fd7009a0cae, type: 3}
-  yellowj: {fileID: 8197622510785099344, guid: af7242438669519428772fd7009a0cae, type: 3}
-  blackj: {fileID: 8197622510785099344, guid: af7242438669519428772fd7009a0cae, type: 3}
+  greenj: {fileID: 2718274588166405877, guid: ce18bea9e51595f4f8eabcbb3d7b433f, type: 3}
+  yellowj: {fileID: 2718274588166405877, guid: 2f72dd953e14a594288f782ad5dcc627, type: 3}
+  blackj: {fileID: 2718274588166405877, guid: a6404859c09f4354290a6db63da37dfd, type: 3}
+  player: {fileID: 0}
+  p: {fileID: 0}
 --- !u!4 &1520112830
 Transform:
   m_ObjectHideFlags: 0
@@ -5110,7 +5163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1828601336
 MonoBehaviour:
   m_ObjectHideFlags: 0

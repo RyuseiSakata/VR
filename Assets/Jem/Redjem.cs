@@ -7,6 +7,7 @@ public class Redjem : MonoBehaviour
     // Start is called before the first frame update
     public GameObject field;
     public Field f;
+    public int color;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class Redjem : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-         f.DeScriaseJem(0);
+         f.DeScriaseJem(color);
     }
 
 }
