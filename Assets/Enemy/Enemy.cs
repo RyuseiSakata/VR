@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         Debug.Log("敵の動きだよ～～");
+        if(Random.Range(1,10)==9){
+            Debug.Log("敵のkatidayo～～");
+        }
         pc.Contlorl(1);
     }
 
