@@ -13,16 +13,18 @@ public class PlayerClass : MonoBehaviour
     public int WhiteJemCount = 0;
     public int BlackJemCount = 0;
     public int GetPoint = 0;
+    public GameObject gameobject;
+    public PlayerContloler pc;
 
     void Start()
     {
-        
+
     }
 
     public void jemFluctuation(){
         jemCount++;
         Debug.Log("jem:"+jemCount);
-
+        pc.Contlorl(0);
         if(jemCount >= 10){
             Debug.Log("勝利(jem)");
         }
@@ -31,6 +33,7 @@ public class PlayerClass : MonoBehaviour
     public void RedJemFluctuation(){
         RedJemCount++;
         Debug.Log("Redjem:"+RedJemCount);
+        pc.Contlorl(0);
 
         if(RedJemCount >= 10){
             Debug.Log("勝利(Redjem)");
@@ -40,6 +43,7 @@ public class PlayerClass : MonoBehaviour
     public void BlueJemFluctuation(){
         BlueJemCount++;
         Debug.Log("Bluejem:"+BlueJemCount);
+        pc.Contlorl(0);
 
         if(BlueJemCount >= 10){
             Debug.Log("勝利(Bluejem)");
@@ -49,6 +53,7 @@ public class PlayerClass : MonoBehaviour
     public void GreenJemFluctuation(){
         GreenJemCount++;
         Debug.Log("Greenjem:"+GreenJemCount);
+        pc.Contlorl(0);
 
         if(GreenJemCount >= 10){
             Debug.Log("勝利(Greenjem)");
@@ -58,6 +63,7 @@ public class PlayerClass : MonoBehaviour
     public void WhiteJemFluctuation(){
         WhiteJemCount++;
         Debug.Log("Whitejem:"+WhiteJemCount);
+        pc.Contlorl(0);
 
         if(WhiteJemCount >= 10){
             Debug.Log("勝利(Whitejem)");
@@ -67,6 +73,7 @@ public class PlayerClass : MonoBehaviour
     public void BlackJemFluctuation(){
         BlackJemCount++;
         Debug.Log("Blackjem:"+BlackJemCount);
+        pc.Contlorl(0);
 
         if(BlackJemCount >= 10){
             Debug.Log("勝利(Blackjem)");
@@ -76,6 +83,7 @@ public class PlayerClass : MonoBehaviour
     public void pointFluctuation(){
         GetPoint++;
         Debug.Log("point:"+GetPoint);
+        pc.Contlorl(0);
 
         if(GetPoint >= 10){
             Debug.Log("勝利(point)");
