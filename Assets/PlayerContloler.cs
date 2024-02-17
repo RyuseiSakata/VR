@@ -27,11 +27,11 @@ public class PlayerContloler : MonoBehaviour
     public void Contlorl(int pnum){
         switch(pnum){
             case 0:
-            player.SetActive(false);
+            //player.SetActive(false);
             enemy.SetActive(true);
             break;
             case 1:
-            player.SetActive(true);
+            //player.SetActive(true);
             enemy.SetActive(false);
             break;
         }

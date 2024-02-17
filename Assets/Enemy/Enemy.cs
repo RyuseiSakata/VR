@@ -9,16 +9,20 @@ public class Enemy : MonoBehaviour
     public PlayerContloler pc;
     void Start()
     {
-        Debug.Log("敵の動きだよ～～");
+        /*Debug.Log("敵の動きだよ～～");
         if(Random.Range(1,10)==9){
             Debug.Log("敵のkatidayo～～");
         }
-        pc.Contlorl(1);
+        pc.Contlorl(1);*/
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("敵の動きだよ～～");
+        if(Random.Range(1,10)==9){
+            Debug.Log("敵のkatidayo～～");
+        }
+        pc.Contlorl(1);
     }
 }
