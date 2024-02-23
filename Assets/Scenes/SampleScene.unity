@@ -287,6 +287,8 @@ MonoBehaviour:
   WhiteJemCount: 0
   BlackJemCount: 0
   GetPoint: 0
+  gameobject: {fileID: 1520112826}
+  pc: {fileID: 1520112831}
 --- !u!1 &67518915
 GameObject:
   m_ObjectHideFlags: 0
@@ -3787,6 +3789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe655c00f37af44f920fa5c412bab42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameobject: {fileID: 1520112826}
+  pc: {fileID: 1520112831}
 --- !u!4 &1358690632
 Transform:
   m_ObjectHideFlags: 0
@@ -4983,6 +4987,7 @@ GameObject:
   - component: {fileID: 1520112829}
   - component: {fileID: 1520112828}
   - component: {fileID: 1520112827}
+  - component: {fileID: 1520112831}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5083,8 +5088,8 @@ MonoBehaviour:
   greenj: {fileID: 2718274588166405877, guid: ce18bea9e51595f4f8eabcbb3d7b433f, type: 3}
   yellowj: {fileID: 2718274588166405877, guid: 2f72dd953e14a594288f782ad5dcc627, type: 3}
   blackj: {fileID: 2718274588166405877, guid: a6404859c09f4354290a6db63da37dfd, type: 3}
-  player: {fileID: 0}
-  p: {fileID: 0}
+  player: {fileID: 65582282}
+  p: {fileID: 65582284}
 --- !u!4 &1520112830
 Transform:
   m_ObjectHideFlags: 0
@@ -5100,6 +5105,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1520112831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520112826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61af752db74f204597309f9ced645c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 65582282}
+  p: {fileID: 65582284}
+  enemy: {fileID: 1358690630}
+  e: {fileID: 1358690631}
 --- !u!1 &1814927780
 GameObject:
   m_ObjectHideFlags: 0
