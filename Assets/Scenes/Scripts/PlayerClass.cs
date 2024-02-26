@@ -21,8 +21,9 @@ public class PlayerClass : MonoBehaviour
 
     }
 
-    public void jemFluctuation(){
-        jemCount++;
+    public void jemFluctuation(int inc){
+        // jemCount++;
+        jemCount += inc;
         Debug.Log("jem:"+jemCount);
         pc.Contlorl(0);
         if(jemCount >= 10){
