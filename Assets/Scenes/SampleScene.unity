@@ -3869,6 +3869,7 @@ GameObject:
   - component: {fileID: 1256432959}
   - component: {fileID: 1256432961}
   - component: {fileID: 1256432960}
+  - component: {fileID: 1256432962}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -3893,8 +3894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.7469101, y: -0.6249161}
-  m_SizeDelta: {x: 2081.7163, y: 447.9138}
+  m_AnchoredPosition: {x: -6.9721, y: -0.6249161}
+  m_SizeDelta: {x: 2454.5054, y: 447.9138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256432960
 MonoBehaviour:
@@ -3938,6 +3939,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256432958}
   m_CullTransparentMesh: 1
+--- !u!114 &1256432962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256432958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435419b1fd68e0347a8c39c15a68a4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 1520112832}
+  cPoint: 0
+  scoreText: {fileID: 1256432960}
 --- !u!1 &1257614487
 GameObject:
   m_ObjectHideFlags: 0
@@ -5371,6 +5387,7 @@ GameObject:
   - component: {fileID: 1520112828}
   - component: {fileID: 1520112827}
   - component: {fileID: 1520112831}
+  - component: {fileID: 1520112832}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5504,6 +5521,23 @@ MonoBehaviour:
   p: {fileID: 65582284}
   enemy: {fileID: 1358690630}
   e: {fileID: 1358690631}
+--- !u!114 &1520112832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520112826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884851ab2004437438eeaddd2c724510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winpoint: 0
+  cost: 0000000000000000000000000000000000000000
+  buyc: {fileID: 0}
+  buy: {fileID: 0}
+  point: 0
 --- !u!1 &1549690630
 GameObject:
   m_ObjectHideFlags: 0
@@ -5540,8 +5574,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -17.1, y: 29.4}
-  m_SizeDelta: {x: -53.6684, y: -85.8498}
+  m_AnchoredPosition: {x: 1.2494, y: 29.4}
+  m_SizeDelta: {x: -28.9697, y: -85.8498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549690632
 MonoBehaviour:
@@ -5572,7 +5606,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 7
 --- !u!222 &1549690633
 CanvasRenderer:
   m_ObjectHideFlags: 0
