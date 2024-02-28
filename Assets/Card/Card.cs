@@ -12,11 +12,11 @@ public class Card : MonoBehaviour
     public Buy buy;
 
     public int point;
+
     
 
     void Start()
     {
-
     }
 
 //フィールドからカードを消す　新しいカードを追加する

@@ -265,3 +265,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   field: {fileID: 0}
   f: {fileID: 0}
+  color: 0
+  sound1: {fileID: 8300000, guid: 29150614f4f085145b3d3bac8c7aa525, type: 3}

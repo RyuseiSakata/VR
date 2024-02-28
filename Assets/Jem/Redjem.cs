@@ -9,15 +9,24 @@ public class Redjem : MonoBehaviour
     public Field f;
     public int color;
 
+    public AudioClip sound1;
+    AudioSource audioSource;
+
     void Start()
     {
         field = GameObject.Find("GameObject");
         f = field.GetComponent<Field>();
+
+        //Componentを取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter(Collision collision)
     {
-         f.DeScriaseJem(color);
+        f.DeScriaseJem(color);
+
+        //音(sound1)を鳴らす
+        audioSource.PlayOneShot(sound1);
     }
 
 }

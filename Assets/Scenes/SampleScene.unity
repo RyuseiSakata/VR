@@ -3915,103 +3915,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1 &1186737907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1186737911}
-  - component: {fileID: 1186737910}
-  - component: {fileID: 1186737909}
-  - component: {fileID: 1186737908}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1186737908
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186737907}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1186737909
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186737907}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e809ffeb4b074614c884c1a75658d070, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1186737910
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186737907}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1186737911
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186737907}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.532475, y: 10.768235, z: 45.268}
-  m_LocalScale: {x: 1, y: 1, z: 0.1273}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232856942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5590,6 +5493,7 @@ GameObject:
   - component: {fileID: 1520112827}
   - component: {fileID: 1520112831}
   - component: {fileID: 1520112832}
+  - component: {fileID: 1520112833}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5624,50 +5528,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   field: 
   card1_R:
-  - {fileID: 1496335228231186967, guid: 378cd79f84cce474a978b4206cf3c03b, type: 3}
-  - {fileID: 1496335228231186967, guid: 7413899a41edda54b80e149fcde43fa7, type: 3}
-  - {fileID: 1496335228231186967, guid: d85779f8bc2aa4b40ba51021df323291, type: 3}
-  - {fileID: 1496335228231186967, guid: 0143ac02543c4e446abfd154fe2f2d34, type: 3}
+  - {fileID: 5626607998559849963, guid: e9be832c65e809a48b0accfa8c4bfcf8, type: 3}
+  - {fileID: 5626607998559849963, guid: fa4ada3d9d3962f4d94cb8144b9d1c68, type: 3}
+  - {fileID: 5626607998559849963, guid: 6c36c22702cd2aa4091ed9e536591527, type: 3}
+  - {fileID: 5626607998559849963, guid: 374ffa6b9f3c7474288ae070af896b4a, type: 3}
   card1_M:
-  - {fileID: 1496335228231186967, guid: 035579c7a43c47f43b37df5dd2a9d70e, type: 3}
-  - {fileID: 1496335228231186967, guid: 9d9295f10ee691448ab10b059d8619da, type: 3}
-  - {fileID: 1496335228231186967, guid: ee460899de2bc7841863dfe44dbff052, type: 3}
-  - {fileID: 1496335228231186967, guid: de259087b9e97d4408efd32885c886c9, type: 3}
+  - {fileID: 5626607998559849963, guid: 2627120fdf080a040893af43d5fbc457, type: 3}
+  - {fileID: 5626607998559849963, guid: 73229e56012529343b412444cdf6a4ad, type: 3}
+  - {fileID: 5626607998559849963, guid: a90dc8e5c70dfa845895bc686f5627f1, type: 3}
+  - {fileID: 5626607998559849963, guid: 79067cc9396fc944fa6c427961be1043, type: 3}
   card1_L:
-  - {fileID: 1496335228231186967, guid: 17808395b16fffd4ba8b952da1bcc18f, type: 3}
-  - {fileID: 1496335228231186967, guid: 7651f75eaaacc9244a32bb3ce293d2e0, type: 3}
-  - {fileID: 1496335228231186967, guid: db96680b66ff2c44b8b57e9dc8d775c2, type: 3}
-  - {fileID: 1496335228231186967, guid: edf7017082ef90c4b84a02d3d5055931, type: 3}
+  - {fileID: 5626607998559849963, guid: 9ab4e432bbbe40246b3dbd3d826e483c, type: 3}
+  - {fileID: 5626607998559849963, guid: 7c91ac02f672baa45a12e3910acbfc8f, type: 3}
+  - {fileID: 5626607998559849963, guid: 8e9173652fd80b341bee8b675663e27c, type: 3}
+  - {fileID: 5626607998559849963, guid: 9c949f39e2d648047a71ecd5a55573ab, type: 3}
   card2_R:
-  - {fileID: 1496335228231186967, guid: 4a51b46ddfcd8ab42870113481a67049, type: 3}
-  - {fileID: 1496335228231186967, guid: 43f4eea56eea9f24bac34d44a9bee1f9, type: 3}
-  - {fileID: 1496335228231186967, guid: 5df3586253ff06747aee24a10578cc1e, type: 3}
-  - {fileID: 1496335228231186967, guid: 3b168146df7f9d64ba0b30fa0983d583, type: 3}
+  - {fileID: 5626607998559849963, guid: 9e304e11328aaa4499b5ef35593a633a, type: 3}
+  - {fileID: 5626607998559849963, guid: 462a88b3911fa5243afcd4f73bf999b4, type: 3}
+  - {fileID: 5626607998559849963, guid: 5cede6e415bb7c843a64c1b184ffcd5a, type: 3}
+  - {fileID: 5626607998559849963, guid: 184d86728da78764380152aa2009c35b, type: 3}
   card2_M:
-  - {fileID: 1496335228231186967, guid: 566667525cae501448f7154a04a46422, type: 3}
-  - {fileID: 1496335228231186967, guid: 34a17769ecadf2945af0c4c3948bb4dc, type: 3}
-  - {fileID: 1496335228231186967, guid: 4114765af1ec4ff4e9df2fde696aa78c, type: 3}
-  - {fileID: 1496335228231186967, guid: c5b2185871d993b4a883eec63fa2e527, type: 3}
+  - {fileID: 5626607998559849963, guid: 38186fb6aa5847c40a9dad5535dc24b8, type: 3}
+  - {fileID: 5626607998559849963, guid: 5ffec26840c3772438587d383428e45b, type: 3}
+  - {fileID: 5626607998559849963, guid: 26c910abefc919c48836bc89a24de8c7, type: 3}
+  - {fileID: 5626607998559849963, guid: 1333d529eb068044ba7091c9ebd51e73, type: 3}
   card2_L:
-  - {fileID: 1496335228231186967, guid: a5b320bac1ecaf2409be96b0a98b169c, type: 3}
-  - {fileID: 1496335228231186967, guid: 13662da415fc3a44eaab61e2a28da1a7, type: 3}
-  - {fileID: 1496335228231186967, guid: 95bcb0c0fde4a7e4cbb467f1e560b8bc, type: 3}
-  - {fileID: 1496335228231186967, guid: 7ddccb870182fb341ba30871d55b8396, type: 3}
+  - {fileID: 5626607998559849963, guid: 1e2598cafcab14647aabe2469705f1da, type: 3}
+  - {fileID: 5626607998559849963, guid: a6d13a569d32bd14ab3a1254ec79a9d3, type: 3}
+  - {fileID: 5626607998559849963, guid: 8b6cc37bf1d076640b4f8c9a42b68f9f, type: 3}
+  - {fileID: 5626607998559849963, guid: a58a0fa31e5dd9647bec68b4a0e11f76, type: 3}
   card3_R:
-  - {fileID: 1496335228231186967, guid: 84991273d384702458fa1fd43addc859, type: 3}
-  - {fileID: 1496335228231186967, guid: 66dc6a49afc30e243853b77b2b38c128, type: 3}
-  - {fileID: 1496335228231186967, guid: d7076ef68962f2247a889b1d1eb56b2f, type: 3}
-  - {fileID: 1496335228231186967, guid: 861cbea3b4d6179409d86c7b7f8845fd, type: 3}
+  - {fileID: 5626607998559849963, guid: b52b07a6b72e20f42b5a9db2cd4c99d8, type: 3}
+  - {fileID: 5626607998559849963, guid: 665fcac5d380e224e98759205a2e72ce, type: 3}
+  - {fileID: 5626607998559849963, guid: a9b378b4d625e2a40a49af6bbdd7af15, type: 3}
+  - {fileID: 5626607998559849963, guid: ce12f76371292da44a30825ef9bb9986, type: 3}
   card3_M:
-  - {fileID: 1496335228231186967, guid: eb8675d1e8b5dad4b8730685381886ae, type: 3}
-  - {fileID: 1496335228231186967, guid: 33be00213e8145e4f9ce4e7fc951d1d7, type: 3}
-  - {fileID: 1496335228231186967, guid: 2de988a9a934c4a4bbdfc7f1ab3ab789, type: 3}
-  - {fileID: 1496335228231186967, guid: 55c705d88f3e64f4e819b7018b574929, type: 3}
+  - {fileID: 5626607998559849963, guid: ca70c9b20bd48d54c89477d0ae6b8362, type: 3}
+  - {fileID: 5626607998559849963, guid: 2bc299de269e7d541bee669bffade559, type: 3}
+  - {fileID: 5626607998559849963, guid: cb7578ca407aa984f8c2407ec1eb0ea2, type: 3}
+  - {fileID: 5626607998559849963, guid: 830293a2b85b38645a69f448c97938ce, type: 3}
   card3_L:
-  - {fileID: 1496335228231186967, guid: ce5c7dacbef785442aa69ac12cb652b0, type: 3}
-  - {fileID: 1496335228231186967, guid: 8153098740c0ffa45bbf41e8c25783b7, type: 3}
-  - {fileID: 1496335228231186967, guid: 6688b44c1b2327943aeb89cd85f0c91b, type: 3}
-  - {fileID: 1496335228231186967, guid: 5f6192e78f9123648ba7828b56b0242f, type: 3}
+  - {fileID: 5626607998559849963, guid: a7d70efac719d9a4a9bb8802d1b398c2, type: 3}
+  - {fileID: 5626607998559849963, guid: dee062199d9320c4fb2d4f96c0a2115b, type: 3}
+  - {fileID: 5626607998559849963, guid: 4b5fb726640f810469d3032bdc2f7336, type: 3}
+  - {fileID: 5626607998559849963, guid: 274b9b9f34012da4eb04b75ac7ece320, type: 3}
 --- !u!114 &1520112829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5737,9 +5641,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winpoint: 0
   cost: 0000000000000000000000000000000000000000
-  buyc: {fileID: 0}
-  buy: {fileID: 0}
+  buyc: {fileID: 1520112826}
+  buy: {fileID: 1520112827}
   point: 0
+--- !u!114 &1520112833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520112826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674d0c3862d135f47b0bb105be8d9295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jemCount: 0
+  RedJemCount: 0
+  BlueJemCount: 0
+  GreenJemCount: 0
+  WhiteJemCount: 0
+  BlackJemCount: 0
+  GetPoint: 0
+  gameobject: {fileID: 1520112826}
+  pc: {fileID: 1520112831}
 --- !u!1 &1549690630
 GameObject:
   m_ObjectHideFlags: 0
