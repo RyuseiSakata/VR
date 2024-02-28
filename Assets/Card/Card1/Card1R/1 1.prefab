@@ -113,9 +113,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winpoint: 0
-  cost: 0100000000000000000000000000000000000000
+  cost: 0000000000000000000000000000000000000000
   buyc: {fileID: 0}
   buy: {fileID: 0}
+  point: 0
   player: {fileID: 0}
   p: {fileID: 0}
 --- !u!54 &-5671910854087496642

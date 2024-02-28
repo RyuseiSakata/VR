@@ -9,6 +9,9 @@ public class ScoreText : MonoBehaviour
     public int cPoint;
     public Text scoreText;
 
+    public Text jemText;
+    public PlayerClass playerClass;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +23,10 @@ public class ScoreText : MonoBehaviour
     {
         cPoint = card.point;
         scoreText.text = "SCORE:" + cPoint;
+        // Debug.Log("cpoint:"+cPoint +"     "+"point:"+card.point);
+
+        jemText.text = "RED:"+playerClass.RedJemCount+"  " + "BLUE:"+playerClass.BlueJemCount+"  " + 
+                            "GREEN:"+playerClass.GreenJemCount+"  " + "WHITE:"+playerClass.WhiteJemCount+"  " +
+                                "BLACK:"+playerClass.BlackJemCount;
     }
 }
