@@ -21,9 +21,12 @@ public class ScoreText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cPoint = card.point;
-        scoreText.text = "SCORE:" + cPoint;
+        // cPoint = card.point;
+        // scoreText.text = "SCORE:" + cPoint;
         // Debug.Log("cpoint:"+cPoint +"     "+"point:"+card.point);
+        // Debug.Log("cpoint:"+cPoint +"     "+"point:"+card.point);
+
+        scoreText.text = "SCORE:" + playerClass.GetPoint;
 
         jemText.text = "RED:"+playerClass.RedJemCount+"  " + "BLUE:"+playerClass.BlueJemCount+"  " + 
                             "GREEN:"+playerClass.GreenJemCount+"  " + "WHITE:"+playerClass.WhiteJemCount+"  " +

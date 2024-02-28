@@ -14,7 +14,7 @@ public class PlayerClass : MonoBehaviour
     public int GreenJemCount = 0;
     public int WhiteJemCount = 0;
     public int BlackJemCount = 0;
-    public int GetPoint = 0;
+    public int GetPoint;
     public GameObject gameobject;
     public PlayerContloler pc;
 
@@ -90,13 +90,16 @@ public class PlayerClass : MonoBehaviour
     }
 
     public void pointFluctuation(){
-        GetPoint++;
-        Debug.Log("point:"+GetPoint);
-        pc.Contlorl(0);
+        // GetPoint++;
+        // Debug.Log("point:"+GetPoint);
+        // pc.Contlorl(0);
 
-        if(GetPoint >= 10){
-            Debug.Log("勝利(point)");
-        }
+        // if(GetPoint >= 10){
+        //     Debug.Log("勝利(point)");
+        // }
+
+        GetPoint++;
+        Debug.Log("GetPoint:"+GetPoint);
     }
 
     // Update is called once per frame
@@ -105,7 +108,5 @@ public class PlayerClass : MonoBehaviour
         
         // cPoint = card.point;
         // ScoreText.text = "SCORE:" + cPoint;
-
-        
     }
 }

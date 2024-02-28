@@ -12,25 +12,21 @@ public class Card : MonoBehaviour
     public Buy buy;
 
     public int point;
-    // private int testPoint;
+    
 
     void Start()
     {
-        point = 1;
+
     }
 
 //フィールドからカードを消す　新しいカードを追加する
     public void removeThis(int c,int p){
         buy.BuyCard(c,p);
-        getPoint();
-        // Destroy(this.gameObject);
+        Destroy(this.gameObject);
     }
 
     public void getPoint(){
-        // testPoint += 1;
-        point += 1;
-        Debug.Log("point:"+point);
-        // Debug.Log("point:"+testPoint);
+
     }//ポイントを追加する
 
 }
