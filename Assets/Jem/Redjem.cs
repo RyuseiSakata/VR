@@ -9,8 +9,8 @@ public class Redjem : MonoBehaviour
     public Field f;
     public int color;
 
-    public AudioClip sound1;
-    AudioSource audioSource;
+    // public AudioClip sound1;
+    // AudioSource audioSource;
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class Redjem : MonoBehaviour
         f.DeScriaseJem(color);
 
         //音(sound1)を鳴らす
-        audioSource.PlayOneShot(sound1);
+        // audioSource.PlayOneShot(sound1);
     }
 
 }

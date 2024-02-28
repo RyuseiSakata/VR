@@ -4,6 +4,8 @@ using UnityEngine;
 
 using UnityEngine.UI; 
 
+using UnityEngine.SceneManagement;
+
 public class PlayerClass : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -17,6 +19,7 @@ public class PlayerClass : MonoBehaviour
     public int GetPoint;
     public GameObject gameobject;
     public PlayerContloler pc;
+
 
     // public Text ScoreText;
 
@@ -100,6 +103,12 @@ public class PlayerClass : MonoBehaviour
 
         GetPoint++;
         Debug.Log("GetPoint:"+GetPoint);
+        pc.Contlorl(0);
+
+        if(GetPoint >= 10){
+            Debug.Log("勝利(point)");
+            SceneManager.LoadScene("Win");
+        }
     }
 
     // Update is called once per frame
