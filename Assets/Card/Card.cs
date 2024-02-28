@@ -11,6 +11,8 @@ public class Card : MonoBehaviour
     public GameObject buyc;
     public Buy buy;
 
+    public int point = 0;
+
     void Start(){
     }
 
@@ -18,8 +20,13 @@ public class Card : MonoBehaviour
     public void removeThis(int c,int p){
         buy.BuyCard(c,p);
         Destroy(this.gameObject);
+
+        getPoint();
     }
 
-    public void getPoint(){}//ポイントを追加する
+    public void getPoint(){
+        point++;
+        Debug.Log("point:"+point);
+    }//ポイントを追加する
 
 }

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI; 
+
 public class PlayerClass : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -16,9 +18,15 @@ public class PlayerClass : MonoBehaviour
     public GameObject gameobject;
     public PlayerContloler pc;
 
+    // public Text ScoreText;
+
+    // public Card card;
+    // public int cPoint;
+
+
     void Start()
     {
-
+        // ScoreText.text = "SCORE:0";
     }
 
     public void jemFluctuation(int inc){
@@ -95,7 +103,8 @@ public class PlayerClass : MonoBehaviour
     void Update()
     {
         
-        
+        // cPoint = card.point;
+        // ScoreText.text = "SCORE:" + cPoint;
 
         
     }
